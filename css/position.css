@@ -1,0 +1,649 @@
+body{
+    font-family: Ubuntu;
+}
+
+.after_header{
+    margin-top: 80px;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    color: #9A9CA5;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.link p{
+    margin-right: 5px;
+}
+
+.link p a{
+    color: #424551;
+}
+
+.services_title{
+    font-size: 72px;
+    font-weight: 700;
+    color: #1E212C;
+    margin-bottom: 30px;
+    width: 600px;
+}
+
+.services_text{
+    color: #787A80;
+    font-size: 20px;
+    font-weight: 400;
+    width: 600px;
+    line-height: 30px;
+}
+
+.bg{
+    width: 100%;
+    height: 506px;
+    background-image: url('../img/position.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 120px;
+}
+
+.main{
+    margin-bottom: 100px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+}
+
+.location p{
+    margin-right: 7px;
+    color: #787A80;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.vacancy{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 705px;
+    height: 124px;
+    margin-bottom: 24px;
+}
+
+.vacancy_con{
+    width: 434px;
+    height: 59px;
+}
+
+.vacancy_title{
+    margin-top: 8px;
+    color: #1E212C;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.vacancy_button{
+    width: 151px;
+    height: 44px;
+    color: #FF5A30;
+    border: 1px solid #FF5A30;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.vacancy_button:hover{
+    background-color: #FF5A30;
+    color: white;
+}
+
+.vacancies{
+    display: inline-block;
+    width: 705px;
+}
+
+.main_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscribe{
+    width: 390px;
+    height: 262px;
+}
+
+.sub_title{
+    color: #1E212C;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.sub_text{
+    font-size: 18px;
+    font-weight: 400;
+    color: #424551;
+    margin-bottom: 48px;
+}
+
+.sub_buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub_button{
+    width: 180px;
+    height: 52px;
+    color: #FF5A30;
+    border: 1px solid #FF5A30;
+    border-radius: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.sub_button:hover{
+    background-color: #FF5A30;
+    color: white;
+}
+
+
+.values{
+    margin-top: 180px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.title_values{
+    font-weight: 700;
+    font-size: 46px;
+    color: #1E212C;
+    margin-bottom: 20px;
+}
+
+.text_values{
+    font-size: 18px;
+    font-weight: 400;
+    color: #787A80;
+}
+
+.title_value{
+    font-size: 20px;
+    font-weight: 700;
+    color: #1E212C;
+    margin: 20px 0 10px 0;
+}
+
+.text_value{
+    font-size: 16px;
+    font-weight: 400;
+    color: #787A80;
+}
+
+.values_flex{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.value{
+    width: 285px;
+    height: 188px;
+}
+
+body{
+    position: relative;
+}
+
+.subscribe_news{
+    position: fixed;
+    top: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 200;
+}
+
+.subscribe_news.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 200;
+}
+
+.sub_news_con{
+    background-color: #ffffff;
+    width: 486px;
+    height: 412px;
+    border: 1px solid #E5E8ED;
+    border-radius: 4px;
+}
+
+.sub_news_title{
+    font-size: 28px;
+    font-weight: 700;
+    color: #1E212C;
+    text-align: center;
+    width: 390px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.sub_news_form{
+    width: 390px;
+    height: 166px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.sub_news_button{
+    width: 390px;
+    height: 44px;
+    margin-left: 45px;
+    color: white;
+    background-color: #FF5A30;
+    border-radius: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.sub_news_button:hover{
+    background-color: #FC3300;
+}
+
+.sub_news_con ion-icon{
+    font-size: 28px;
+    color: #787A80;
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    margin-left: 430px;
+}
+
+.sub_news_con ion-icon:hover{
+    color: black;
+}
+
+.sub_news_inputs{
+    margin-bottom: 20px;
+}
+
+.sub_news_text{
+    font-size: 14px;
+    font-weight: 400;
+    color: #424551;
+    margin-bottom: 10px;
+}
+
+.sub_news_input{
+    background-color: #F4F5F6;
+    width: 100%;
+    height: 44px;
+    padding-left: 16px;
+    border: 1px solid #D7DADD;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+body.lock{
+    overflow: hidden;
+}
+
+.cv_news{
+    position: fixed;
+    top: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 200;
+}
+
+.cv_news.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 200;
+}
+
+.cv_news_con{
+    background-color: #ffffff;
+    width: 486px;
+    height: 781px;
+    border: 1px solid #E5E8ED;
+    border-radius: 4px;
+}
+
+.cv_news_title{
+    font-size: 28px;
+    font-weight: 700;
+    color: #1E212C;
+    text-align: center;
+    width: 390px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.cv_news_form{
+    width: 390px;
+    height: 487px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.cv_news_button{
+    width: 390px;
+    height: 44px;
+    margin-left: 45px;
+    color: white;
+    background-color: #FF5A30;
+    border-radius: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.cv_news_button:hover{
+    background-color: #FC3300;
+}
+
+.cv_news_con ion-icon{
+    font-size: 28px;
+    color: #787A80;
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    margin-left: 430px;
+}
+
+.cv_news_con ion-icon:hover{
+    color: black;
+}
+
+.cv_news_inputs{
+    margin-bottom: 20px;
+}
+
+.cv_news_text{
+    font-size: 14px;
+    font-weight: 400;
+    color: #424551;
+    margin-bottom: 10px;
+}
+
+.cv_news_input{
+    background-color: #F4F5F6;
+    width: 100%;
+    height: 44px;
+    padding-left: 16px;
+    border: 1px solid #D7DADD;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cv_news_input_big{
+    background-color: #F4F5F6;
+    width: 100%;
+    height: 86px;
+    padding-left: 16px;
+    border: 1px solid #D7DADD;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.attach{
+    display: flex;
+    align-items: center;
+    width: 390px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.attach div{
+    margin-right: 10px;
+}
+
+@media (max-width: 1240px) {
+    .container {
+        max-width: 970px;
+    }
+
+    .vacancy{
+        width: 550px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 750px;
+    }
+
+    .main_flex{
+        flex-direction: column;
+    }
+
+    .vacancy{
+        width: 750px;
+    }
+
+    .subscribe{
+        width: 750px;
+        margin-top: 40px;
+    }
+
+    .sub_buttons{
+        justify-content: start;
+    }
+
+    .sub_button{
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 343px;
+    }
+
+    .vacancy{
+        width: 343px;
+    }
+
+    .services_title{
+        font-size: 60px;
+    }
+
+    .subscribe{
+        width: 343px;
+        margin-top: 40px;
+    }
+
+    .sub_buttons{
+        justify-content: start;
+    }
+
+    .sub_button{
+        margin-right: 40px;
+    }
+
+    .vacancies{
+        display: inline-block;
+        width: 343px;
+        margin: 0 auto;
+    }
+
+    .values {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .title_values {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .text_values {
+        font-size: 16px;
+    }
+
+    .title_value {
+        font-size: 18px;
+        margin: 10px 0 10px 0;
+    }
+
+    .text_value {
+        font-size: 12px;
+    }
+
+    .value {
+        width: 115px;
+        height: 188px;
+    }
+
+    .services_title{
+        width: 343px;
+    }
+
+    .services_text{
+        width: 343px;
+    }
+
+    .sub_news_con{
+        background-color: #ffffff;
+        width: 343px;
+    }
+
+    .sub_news_title{
+        font-size: 28px;
+        font-weight: 700;
+        color: #1E212C;
+        text-align: center;
+        width: 343px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    .sub_news_form{
+        width: 300px;
+        height: 166px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .sub_news_button{
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    .sub_news_button:hover{
+        background-color: #FC3300;
+    }
+
+    .sub_news_con ion-icon{
+        margin-left: 300px;
+    }
+
+    .sub_news_con ion-icon:hover{
+        color: black;
+    }
+
+    .sub_news_inputs{
+        margin-bottom: 20px;
+    }
+
+    .cv_news{
+        position: fixed;
+        top: 0;
+        display: none;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 200;
+    }
+
+    .cv_news.active{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 200;
+    }
+
+    .cv_news_con{
+        width: 343px;
+    }
+
+    .cv_news_title{
+        width: 300px;
+    }
+
+    .cv_news_form{
+        width: 300px;
+    }
+
+    .cv_news_button{
+        width: 300px;
+    }
+
+    .cv_news_con ion-icon{
+        margin-left: 300px;
+    }
+
+    .cv_news_input_big{
+        background-color: #F4F5F6;
+        width: 100%;
+        height: 86px;
+        padding-left: 16px;
+        border: 1px solid #D7DADD;
+        border-radius: 4px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .attach{
+        width: 300px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .cv_news_button{
+        width: 300px;
+        margin-left: 20px;
+    }
+
+}

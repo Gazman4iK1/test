@@ -1,0 +1,543 @@
+.after_header{
+    margin-top: 80px;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    color: #9A9CA5;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.link p{
+    margin-right: 5px;
+}
+
+.link p a{
+    color: #424551;
+}
+
+.work-title{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 76.8px;
+    color: #1E212C;
+    margin-bottom: 60px;
+}
+
+.main-slider2{
+    overflow: hidden;
+}
+
+.main-slider2 .swiper-button-next:after,
+.main-slider2 .swiper-button-prev:after{
+    display: none;
+}
+
+.s-button-next, .s-button-prev{
+    width: 48px;
+    height: 48px;
+    color: #424551;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-button-next ion-icon, .s-button-prev ion-icon{
+    width: 24px;
+    height: 24px;
+
+}
+
+.main-slider2{
+    position: relative;
+    z-index: 2;
+    margin-bottom: 20px;
+}
+
+.arrow-wrp{
+    width: 99%;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 5;
+    top: 45%;
+    padding: 0 10px 0 20px;
+}
+
+.main{
+    margin-bottom: 120px;
+}
+
+.main-slide-img2{
+    width: 100%;
+    height: 500px;
+}
+
+.main-slide-img2 img{
+    height: 100%;
+    width: 100%;
+}
+
+.main-slide-img{
+    width: 100px;
+    height: 100px;
+}
+
+.main-slide-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.main-slider_slide{
+    width: 100px;
+    height: 100px;
+}
+
+.main-slider .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.5    ;
+}
+
+.main-slider{
+    overflow: hidden;
+}
+
+.main-slider .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+.work-info{
+    height: 316px;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.goal{
+    width: 600px;
+}
+
+.goal-title{
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 59.8px;
+    color: #1E212C;
+}
+
+.goal-text{
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #424551;
+    line-height: 27px;
+}
+
+.goal-text span{
+    display: block;
+    margin-top: 20px;
+}
+
+.inform{
+    width: 495px;
+    height: 316px;
+    border-radius: 4px;
+    box-shadow: 3px 5px 1em silver;
+    padding: 40px 60px;
+}
+
+.inform-text{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.inform-title{
+    width: 98px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1E212C;
+    line-height: 25.6px;
+    text-transform: uppercase;
+    margin-right: 32px;
+}
+
+.inform-content{
+    font-size: 16px;
+    font-weight: 400;
+    color: #787A80;
+    line-height: 25.6px;
+}
+
+.work{
+    margin-bottom: 120px;
+}
+
+.decision-info{
+    margin-left: 130px;
+}
+
+.decisions-img{
+    width: 495px;
+    height: 550px;
+}
+
+.decisions-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.decision-title{
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 59.8px;
+    color: #1E212C;
+    margin-bottom: 60px;
+}
+
+.list-info{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    color: #424551;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.list-info p{
+    margin-left: 10px;
+}
+
+.decisions{
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.project{
+    font-family: Ubuntu;
+    position: relative;
+    width: 390px;
+    height: 440px;
+    border-radius: 4px;
+    box-shadow: 3px 5px 1em silver;
+    margin-bottom: 10px;
+}
+
+.project:hover{
+    box-shadow: 5px 10px 2em silver;
+}
+
+.project:hover .project_info{
+    padding-bottom: 20px;
+}
+
+.project:hover .project_button{
+    display: block;
+}
+
+.project img{
+    width: 100%;
+    height: 345px;
+}
+
+.project_info{
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    width: 390px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.project_title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #1E212C;
+}
+
+.project_text{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #787A80;
+    margin-bottom: 24px;
+}
+
+.project_button{
+    display: none;
+    width: 172px;
+    height: 44px;
+    border-radius: 4px;
+    color: #FF5A30;
+    background-color: #fff;
+    border: 1px solid #FF5A30;
+    margin-left: 109px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.project_button:hover{
+    background-color: #FF5A30;
+    color: white;
+    border: none;
+}
+
+.project_button a{
+    color: #FF5A30;
+}
+
+.project_button:hover a{
+    color: white;
+}
+
+.project-slider{
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.title_project{
+    width: 705px;
+    height: 60px;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 59.8px;
+}
+
+.main-slider{
+    position: relative;
+    z-index: 2;
+}
+
+.project-arrow-wrp{
+    width: 120px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 5;
+    top: 45%;
+    padding: 0 10px 0 20px;
+
+}
+
+.project-button-prev, .project-button-next{
+    font-size: 20px;
+    background-color: #FF5A30;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    color: white;
+}
+
+.swiper-button-disabled{
+    color: black;
+}
+
+.swiper-button-disabled.project-button-prev,
+.swiper-button-disabled.project-button-next{
+    color: black;
+    background-color: transparent;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after{
+    display: none;
+}
+
+.project-flex{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+@media (max-width: 1240px) {
+    .container {
+        max-width: 970px;
+    }
+
+    .project{
+        width: 310px;
+        height: 400px;
+    }
+
+    .project_info{
+        width: 310px;
+    }
+
+    .project_button{
+        margin-left: 70px;
+    }
+
+    .project_title{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 750px;
+    }
+
+    .inform{
+        padding: 20px 20px;
+    }
+
+    .decisions-img{
+        height: 450px;
+    }
+
+    .decision-title{
+        margin-bottom: 20px;
+    }
+
+    .project{
+        width: 230px;
+        height: 300px;
+    }
+
+    .title_project{
+        width: 605px;
+        height: 80px;
+        font-size: 39px;
+        font-weight: 700;
+        line-height: 59.8px;
+    }
+
+    .project_info{
+        width: 230px;
+    }
+
+    .project img{
+        width: 100%;
+        height: 250px;
+    }
+
+    .project_button{
+        margin-left: 30px;
+    }
+
+    .project_title{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 343px;
+        margin: 0 auto;
+    }
+
+    .link{
+        padding-top: 80px;
+    }
+
+    .main-slide-img2{
+        width: 100%;
+        height: 300px;
+    }
+
+    .main-slider2 .swiper-button-next:after,
+    .main-slider2 .swiper-button-prev:after{
+        display: none;
+    }
+
+    .s-button-next, .s-button-prev{
+        display: none;
+    }
+
+    .s-button-next ion-icon, .s-button-prev ion-icon{
+        display: none;
+    }
+
+    .project{
+        width: 343px;
+        height: 343px;
+    }
+
+    .project-slider{
+        margin-top: 20px;
+    }
+
+    .title_project{
+        width: 605px;
+        height: 80px;
+        font-size: 39px;
+        font-weight: 700;
+        line-height: 59.8px;
+    }
+
+    .project_info{
+        width: 343px;
+    }
+
+    .project img{
+        width: 100%;
+        height: 270px;
+    }
+
+    .project_button{
+        margin-left: 85.5px;
+    }
+
+    .project_title{
+        font-size: 18px;
+    }
+
+    .project-flex{
+        display: block;
+    }
+
+    .title_project{
+        width: 343px;
+        height: 60px;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .work-info{
+        height: 700px;
+        width: 100%;
+        margin-top: 100px;
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .goal{
+        width: 343px;
+        margin-bottom: 30px;
+    }
+
+    .inform{
+        width: 330px;
+        height: 316px;
+        border-radius: 4px;
+        box-shadow: 3px 5px 1em silver;
+        padding: 10px 10px;
+        margin: 0 auto;
+    }
+
+    .decisions-img{
+        display: none;
+    }
+
+    .decision-info{
+        margin-left: 0;
+        margin-bottom: 80px;
+    }
+}
