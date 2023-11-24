@@ -702,4 +702,8 @@ body {
         margin-top: 32px;
     }
 
+    .client_flex{
+        display: none;
+    }
+
 }
