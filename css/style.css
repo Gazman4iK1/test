@@ -1418,6 +1418,7 @@ body.lock{
         padding: 0;
         border-radius: 4px;
         margin-top: 20px;
+        box-shadow: none;
     }
 
     .main_form_flex {
